@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Tc001">
+    <classes>
+      <class name="mydemo_01.mydemo_01.ppt3"/>
+      <methods>
+      <include name="method 1"></include>
+      <include name="method 3"></include>
+      <exclude name="method 2"></exclude>
+      </methods>
+      </classes>
+      </test><!--  Test -->
+      <test name="Tc002">
+      <classes>
+      <class name="mydemo_01.mydemo_01.ppt3"/>
+      <class name="mydemo_01.mydemo_01.ppt3_1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

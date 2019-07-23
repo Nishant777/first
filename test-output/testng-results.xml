@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="253680" started-at="2019-07-23T04:26:40Z" finished-at="2019-07-23T04:30:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="253680" started-at="2019-07-23T04:26:40Z" finished-at="2019-07-23T04:30:54Z">
+      <class name="mydemo_01.mydemo_01.casestudy">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:mydemo_01.mydemo_01.casestudy@5bd03f44]" name="startReport" is-config="true" duration-ms="311" started-at="2019-07-23T09:56:40Z" finished-at="2019-07-23T09:56:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:mydemo_01.mydemo_01.casestudy@5bd03f44]" name="launch" is-config="true" duration-ms="32318" started-at="2019-07-23T09:56:41Z" finished-at="2019-07-23T09:57:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="registration()[pri:1, instance:mydemo_01.mydemo_01.casestudy@5bd03f44]" name="registration" duration-ms="181883" started-at="2019-07-23T09:57:13Z" finished-at="2019-07-23T10:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:mydemo_01.mydemo_01.casestudy@5bd03f44]" name="getResult" is-config="true" duration-ms="18" started-at="2019-07-23T10:00:15Z" finished-at="2019-07-23T10:00:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registration status=SUCCESS method=casestudy.registration()[pri:1, instance:mydemo_01.mydemo_01.casestudy@5bd03f44] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testLogin()[pri:2, instance:mydemo_01.mydemo_01.casestudy@5bd03f44]" name="testLogin" duration-ms="831" started-at="2019-07-23T10:00:15Z" finished-at="2019-07-23T10:00:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:mydemo_01.mydemo_01.casestudy@5bd03f44]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-23T10:00:16Z" finished-at="2019-07-23T10:00:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=casestudy.testLogin()[pri:2, instance:mydemo_01.mydemo_01.casestudy@5bd03f44] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testCart()[pri:3, instance:mydemo_01.mydemo_01.casestudy@5bd03f44]" name="testCart" duration-ms="12560" started-at="2019-07-23T10:00:16Z" finished-at="2019-07-23T10:00:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:mydemo_01.mydemo_01.casestudy@5bd03f44]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-23T10:00:28Z" finished-at="2019-07-23T10:00:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCart status=SUCCESS method=casestudy.testCart()[pri:3, instance:mydemo_01.mydemo_01.casestudy@5bd03f44] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testpayment()[pri:4, instance:mydemo_01.mydemo_01.casestudy@5bd03f44]" name="testpayment" duration-ms="23764" started-at="2019-07-23T10:00:28Z" finished-at="2019-07-23T10:00:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpayment -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:mydemo_01.mydemo_01.casestudy@5bd03f44]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-23T10:00:52Z" finished-at="2019-07-23T10:00:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testpayment status=SUCCESS method=casestudy.testpayment()[pri:4, instance:mydemo_01.mydemo_01.casestudy@5bd03f44] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:mydemo_01.mydemo_01.casestudy@5bd03f44]" name="afterTest" is-config="true" duration-ms="1948" started-at="2019-07-23T10:00:52Z" finished-at="2019-07-23T10:00:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- mydemo_01.mydemo_01.casestudy -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
